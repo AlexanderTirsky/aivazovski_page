@@ -4,6 +4,11 @@
 body {
     background-color: var(--bg-main);
     margin: 0;
+    .container {
+        margin: 0 auto;
+        max-width: 970px;
+        padding: 0 10px;
+    }
     .roboto-thin {
         font-family: "Roboto", sans-serif;
         font-weight: 100;
