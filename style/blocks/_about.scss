@@ -1,0 +1,47 @@
+.about {
+    background-color: var(--bg-main-grey);
+    padding: 60px 30px 100px;
+    text-align: center;
+    color: var(--color-main-black);
+    &__title {
+        font-size: 34px;
+        font-weight: 700;
+        margin: 0 0 42px 0;
+    }
+    &__subtitleru {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        margin: 0 auto 15px;
+        max-width: 780px;
+    }
+    &__descriptionru {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0 auto 15px;
+        text-align: justify;
+        max-width: 780px;
+    }
+    &__subtitleen {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        margin: 15px auto 15px;
+        max-width: 780px;
+    }
+    &__descriptionen {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0 auto;
+        text-align: justify;
+        max-width: 780px;
+    }
+}
+@media (max-width: 480px) {
+    .about__descriptionru,
+    .about__descriptionen,
+    .about__subtitleru,
+    .about__subtitleen {
+        font-size: 14px;
+    }
+}

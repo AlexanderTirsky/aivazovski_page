@@ -26,65 +26,13 @@ body .container {
   max-width: 970px;
   padding: 0 10px;
 }
-body .roboto-thin {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-body .roboto-light {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-body .roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-body .roboto-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-body .roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-body .roboto-black {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-body .roboto-thin-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-body .roboto-light-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-body .roboto-regular-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-body .roboto-medium-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-body .roboto-bold-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-body .roboto-black-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: italic;
+body .divder {
+  max-width: 420px;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-main-black);
+  border: none;
+  margin: 0 auto;
 }
 
 :root {
@@ -149,6 +97,7 @@ body .roboto-black-italic {
 
 .home {
   text-align: center;
+  padding: 0 0 70px 0;
 }
 .home__title {
   font-size: 45px;
@@ -177,6 +126,54 @@ body .roboto-black-italic {
     font-size: 32px;
   }
   .home__description {
+    font-size: 14px;
+  }
+}
+.about {
+  background-color: var(--bg-main-grey);
+  padding: 60px 30px 100px;
+  text-align: center;
+  color: var(--color-main-black);
+}
+.about__title {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0 0 42px 0;
+}
+.about__subtitleru {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0 auto 15px;
+  max-width: 780px;
+}
+.about__descriptionru {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 auto 15px;
+  text-align: justify;
+  max-width: 780px;
+}
+.about__subtitleen {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 15px auto 15px;
+  max-width: 780px;
+}
+.about__descriptionen {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 auto;
+  text-align: justify;
+  max-width: 780px;
+}
+
+@media (max-width: 480px) {
+  .about__descriptionru,
+  .about__descriptionen,
+  .about__subtitleru,
+  .about__subtitleen {
     font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,10 +1,12 @@
 .home {
     text-align: center;
+    padding: 0 0 70px 0;
     &__title {
         font-size: 45px;
         font-weight: 700;
         color: var(--color-main-black);
         margin-top: 45px 0 25 0;
+        
     }
     &__description {
         font-size: 18px;
