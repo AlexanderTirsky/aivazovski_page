@@ -9,7 +9,7 @@ ul {
   padding: 0;
 }
 
-h1, p {
+h1, h2, p {
   margin: 0;
 }
 
@@ -102,7 +102,6 @@ body .divder {
 .home__title {
   font-size: 45px;
   font-weight: 700;
-  color: var(--color-main-black);
   margin-top: 45px 0 25 0;
 }
 .home__description {
@@ -175,5 +174,39 @@ body .divder {
   .about__subtitleru,
   .about__subtitleen {
     font-size: 14px;
+  }
+}
+.history {
+  padding: 65px 0 70px;
+  text-align: center;
+  color: var(--color-main-black);
+}
+.history__title {
+  font-size: 34px;
+  font-weight: 700;
+}
+.history__photo {
+  width: 100%;
+  max-width: 950px;
+  height: 655px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 60px 0 0 0;
+}
+.history__description {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 30px 0 0 0;
+}
+
+@media (max-width: 480px) {
+  .history__photo {
+    height: 480px;
+  }
+  .history__description {
+    font-size: 14px;
+  }
+  .history {
+    padding: 50px 0 70px;
   }
 }/*# sourceMappingURL=style.css.map */
