@@ -35,6 +35,10 @@ body .divder {
   margin: 0 auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --bg-main: #fff;
   --bg-main-grey: #f6f6f6;
@@ -208,5 +212,35 @@ body .divder {
   }
   .history {
     padding: 50px 0 70px;
+  }
+}
+.portfolio {
+  background-color: var(--bg-main-grey);
+  text-align: center;
+  padding: 80px 20px 100px;
+  color: var(--color-main-black);
+}
+.portfolio__picture {
+  margin: 75px 0 40px;
+  width: min(100%, 950px);
+  height: min(100%, 630px);
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.portfolio__title {
+  font-size: 34x;
+  font-weight: 700;
+}
+.portfolio__description {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .portfolio__picture {
+    margin: 50px 0 30px;
+  }
+  .portfolio__discription {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
