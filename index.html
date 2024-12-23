@@ -25,7 +25,7 @@
                         <a class="nav__link" href="#portfolio-id" aria-label="link to portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="nav__link" href="#" aria-label="link to contacts">Contacts</a>
+                        <a class="nav__link" href="#contacts-id" aria-label="link to contacts">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -70,8 +70,38 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="contacts" aria-label="contacts section" id="contacts-id">
+        <div class="container">
+            <h2 class="contacts__title">Contacts</h2>
+            <button class="contacts__button" target="_blank">
+                <a class="contacts__weblink" href="http://aivazovski.ru">Aivazovski.ru</a>
+            </button>
+            <address class="socials" aria-label="socials icons">
+                <a href="https://www.youtube.com" target="_blank" aria-label="link youtube">
+                    <svg class="socials__icons" aria-label="youtube icon">
+                        <use href="./assets/sprites.svg#youtube-icon"></use>
+                    </svg>
+                </a>
+                <a href="https://www.linkidin.com" target="_blank" aria-label="link linkidin">
+                    <svg class="socials__icons" aria-label="linkidin icon">
+                        <use href="./assets/sprites.svg#linkidin-icon"></use>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" aria-label="link instagram">
+                    <svg class="socials__icons" aria-label="instagram icon">
+                        <use href="./assets/sprites.svg#instagram-icon"></use>
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" aria-label="link facebook">
+                    <svg class="socials__icons" aria-label="facebook icon">
+                        <use href="./assets/sprites.svg#facebook-icon"></use>
+                    </svg>
+                </a>
+            </address>
+            <p class="contacts__info" aria-label="just for notice">
+                More works you can see in these social networks
+            </p>
+        </div>
     </footer>
 </body>
 </html>
